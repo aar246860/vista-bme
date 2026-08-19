@@ -1,0 +1,6 @@
+interface:
+  display_name: "VISTA-BME"
+  short_description: "Sparse BME with complex soft evidence"
+  default_prompt: "Use $vista-bme to prepare and validate a VISTA-BME estimate from my hard observations, soft likelihoods, and target coordinates."
+policy:
+  allow_implicit_invocation: true

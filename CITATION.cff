@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use VISTA-BME in research, cite this software and the associated method paper when it becomes available."
+title: "VISTA-BME"
+type: software
+version: 0.1.0
+date-released: 2026-08-19
+authors:
+  - family-names: Lin
+    given-names: Ying-Fan
+  - family-names: Yu
+    given-names: Hwa-Lung
+repository-code: "https://github.com/aar246860/vista-bme"
+license: GPL-3.0-only
