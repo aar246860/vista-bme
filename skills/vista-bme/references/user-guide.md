@@ -66,6 +66,12 @@ python -m pytest -q test_vista_bme.py
 
 The smoke test runs one non-Gaussian expectation-propagation estimate and one mixture-preserving estimate. It prints JSON containing posterior moments, convergence status, the variance method, and the retained mixture mass.
 
+## Browser speed demonstration
+
+Use the [VISTA BME Live Speed Lab](https://vista-bme-live.yflin.chatgpt.site) when a user wants to see a calculation respond immediately. The browser recomputes dense Gaussian BME and the exact ordered sparse calculation, then reports measured wall time, posterior RMSE, and matrix storage. Its source and tests are public at `https://github.com/aar246860/vista-bme-demo`.
+
+The demonstration is deliberately limited to the one-dimensional exponential Gaussian case, where the first-order ordered representation is exact. Do not use its timing or equivalence result as proof for multidimensional graphs or non-Gaussian soft likelihoods; run the Python package and relevant diagnostics for those cases.
+
 ## First analysis request
 
 Supply the following information when possible:

@@ -4,6 +4,12 @@ VISTA-BME is a Python implementation of **Vecchia Inference for Streaming Tempor
 
 The repository contains only the numerical package, tests, and an installable Codex skill. Research data, manuscript builds, and large benchmark outputs are maintained separately.
 
+## Live speed demonstration
+
+The [VISTA BME Live Speed Lab](https://vista-bme-live.yflin.chatgpt.site) recomputes dense Gaussian BME and the exact ordered sparse path in the visitor's browser. It reports measured wall time, posterior disagreement, and matrix storage as the workload changes. Its public source and validation tests are in [`aar246860/vista-bme-demo`](https://github.com/aar246860/vista-bme-demo).
+
+The browser lab uses the one-dimensional exponential Gaussian case, where a first-order ordered representation is exact. It does not substitute for the Python package's multidimensional non-Gaussian inference.
+
 ## What it supports
 
 - exact Gaussian BME posterior moments for a fixed covariance model;
@@ -104,4 +110,3 @@ The smoke test exercises non-Gaussian expectation propagation and mixture-preser
 ## License and attribution
 
 VISTA-BME extends numerical components from STAMPS and is distributed under the GNU General Public License v3. See [`LICENSE`](LICENSE) and [`CITATION.cff`](CITATION.cff).
-
